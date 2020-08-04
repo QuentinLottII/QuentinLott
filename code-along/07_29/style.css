@@ -10,32 +10,13 @@
 .jumbotron-fluid{
     height: auto;
 }
-.container-sm{
-    background-color: lightcoral;
+
+.mobile-menu-wrapper{
+    height:100vh;
 }
 
-.container-md{
-    background-color: lightgreen;
-}
-
-.container-lg{
-    background-color: lightgray;
-}
-
-.container-xl{
-    background-color: lightyellow;
-}
-
-#column-1{
-    /* background-color: lightslategray; */
-}
-
-#column-2{
-    /* background-color: lightgreen; */
-}
-
-#column-3{
-    /* background-color: lightsalmon; */
+.list-group-item > a{
+    color: white;
 }
 
 .section-header{
