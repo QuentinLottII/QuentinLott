@@ -17,10 +17,10 @@
             <div class= "row">
                 <div class = "col">
                     <ul class = "list-group mt-5 text-right">
-                        <li class ="list-group-item bg-dark border-0">
+                        <li class ="list-group-item bg-dark border-0" data-toggle = "collapse" data-target = #mobileNavBar>
                         <a href = "#emojis"> Emojis </a>
                         </li>
-                        <li class ="list-group-item bg-dark border-0">
+                        <li class ="list-group-item bg-dark border-0" data-toggle = "collapse" data-target = #mobileNavBar>
                         <a href = "#alerts"> Alert </a>
                         </li> 
                     </ul> 
@@ -58,7 +58,7 @@
 					<a href="forms" class="nav-link Active"> Forms </a>
 				</li>
 				<li class="nav-item">
-					<a href="#models" class="nav-link Active"> Models </a>
+					<a href="#modals" class="nav-link Active"> Modals </a>
 				</li>
 				<li class="nav-item">
 					<a href="#collapse" class="nav-link Active"> Collapse </a>
@@ -153,16 +153,82 @@
                         <button class = "btn mr-2 mt-2 btn-info btn-block"> Block </button>
                     </div>
 
+                    <!--Cards-->
+                    <div id="cards" class="row">
+						<h2 class="section-header"> Cards </h2>
+					</div>
+                    <div class = "row">
+                        <div class = "col-xs-10 col-sm-6 mb-5">
+                            <div class = "card" style = "width: auto">
+                            <div class = "card-header"> Sunset </div>
+                            <img src = "https://picography.co/wp-content/uploads/2019/06/picography-golden-mountain-sunset-sky-clouds-light-900x600.jpg" 
+                            class = "card-img-top" alt = "Sunset Image"> 
+                                <div class = "card-body">
+                                    <div class = "card-title"> Sunset</div>
+                                    <p class = "card-text"> "The sunset looks cool over the mountains" </p> 
+                                    <a href = "#" class = "btn btn-primary"data-toggle="modal"
+                                    data-target=#exampleModal> Click </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-xs-10 col-sm-6 mb-5">
+                            <div class = "card" style = "width: auto">
+                            <div class = "card-header"> Detroit Skyline</div>
+                            <img src = "https://traknetsolutions.com/wp-content/uploads/2019/11/detroit-skyline-linda-goodhue-photography.jpg" 
+                            class = "card-img-top" alt = "Detroit Image"> 
+                                <div class = "card-body">
+                                    <div class = "card-title"> Detroit</div>
+                                    <p class = "card-text"> "The Detroit skyline looks nice at night" </p> 
+                                    <a href = "#" class = "btn btn-primary" data-toggle="modal"
+                                    data-target=#exampleModal> Click </a>
+                                </div> 
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modals -->
+                     <div class = "modal fade" id = "exampleModal">
+                     <!--
+                         Modal dialogue
+                         Modal Content
+                         Modal Header > Title and Close Button
+                         Modal Body
+                         Modal Footer
+                     -->
+                            <div class = "modal-dialog">
+                             <div class = "modal-content">
+                                <!--Modal Header-->
+                                <div class = "modal-header">
+                                <h5 class = "modal-title"> Modal Title </h5>
+                                <button class = "close" data-dismiss = "modal"> 
+                                    <span aria-hidden = "true" > &times; </span>
+                                </button>
+                                </div>
+                                <!--Modal Body-->
+                                <div class = "modal-body">
+                                    <p> This is the Modal body </p>
+                                </div>
+                                <!--Modal Footer-->
+                                <div class = "modal-footer">
+                                    <button class = "btn btn-danger"
+                                    data-dismiss = "modal"> Close </button>
+
+                                </div>
+                             
+                             
+                             
+                             </div>
+                            </div>
+
+                      </div>
+
 					<!-- Carousel -->
+                        <div class="row" id="carousel">
+                            <h1 class="section-header">Carousel</h1>
+                        </div>
 
 					<!-- Forms -->
-
-					<!-- Models -->
-
-					<!-- Collapse -->
-
-					<!-- Dropdown -->
-
 
 					<!--
             <div class="container-sm">100% wide until small breakpoint</div>
