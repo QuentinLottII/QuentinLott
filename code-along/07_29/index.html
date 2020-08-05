@@ -2,8 +2,9 @@
 <html>
 
 <head>
-<!--Font Awesome CDN-->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+	<!--Font Awesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+		integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 	<title> Bootstrap </title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -11,25 +12,25 @@
 </head>
 
 <body>
-    <!--Collapse-->
-    <div class="collapse fixed-top bg-dark" id = "mobileNavBar">
-        <div class="container mobile-menu-wrapper">
-            <div class= "row">
-                <div class = "col">
-                    <ul class = "list-group mt-5 text-right">
-                        <li class ="list-group-item bg-dark border-0" data-toggle = "collapse" data-target = #mobileNavBar>
-                        <a href = "#emojis"> Emojis </a>
-                        </li>
-                        <li class ="list-group-item bg-dark border-0" data-toggle = "collapse" data-target = #mobileNavBar>
-                        <a href = "#alerts"> Alert </a>
-                        </li> 
-                    </ul> 
+	<!--Collapse-->
+	<div class="collapse fixed-top bg-dark" id="mobileNavBar">
+		<div class="container mobile-menu-wrapper">
+			<div class="row">
+				<div class="col">
+					<ul class="list-group mt-5 text-right">
+						<li class="list-group-item bg-dark border-0" data-toggle="collapse" data-target=#mobileNavBar>
+							<a href="#emojis"> Emojis </a>
+						</li>
+						<li class="list-group-item bg-dark border-0" data-toggle="collapse" data-target=#mobileNavBar>
+							<a href="#alerts"> Alert </a>
+						</li>
+					</ul>
 
-                </div>
-            </div>
+				</div>
+			</div>
 
-        </div> 
-    </div>
+		</div>
+	</div>
 	<!-- Nav Bar -->
 	<nav class="navbar fixed-top navbar-dark bg-dark">
 		<a href="#" class="navbar-brand">
@@ -37,13 +38,13 @@
 			<img height= "30" src="http://static1.squarespace.com/static/55c4ffcfe4b0b6679a5a2ff5/t/55c927aee4b0389a4f23a090/1594054577323/?format=1500w" alt=" Journi logo">
             </a>
 
-        <!--Mobile-->
+			<!--Mobile-->
 
-        <button class="navbar-toggler" data-toggle = "collapse" data-target = #mobileNavBar>
+			<button class="navbar-toggler" data-toggle = "collapse" data-target = #mobileNavBar>
             <i class = "fas fa-bars"></i>
         </button>
 
-        <!--Desktop-->
+			<!--Desktop-->
 			<ul class="nav d-none">
 				<li class="nav-item">
 					<a href="#emojis" class="nav-link Active"> Emojis </a>
@@ -72,16 +73,16 @@
 
 	<!-- Jumbotron -->
 	<div class="jumbotron jumbotron-fluid py-5">
-        <div class="container-fluid">
-        <h1 class="display-4"> Bootstrap </h1>
-		<p> Bootstrap is a CSS Framework.
-			It makes working with CSS easier,
-			especially when it comes to Responsive Design. </p>
-		<hr>
-		<button href="https://getbootstrap.com/docs/4.5/getting-started/introduction/
+		<div class="container-fluid">
+			<h1 class="display-4"> Bootstrap </h1>
+			<p> Bootstrap is a CSS Framework.
+				It makes working with CSS easier,
+				especially when it comes to Responsive Design. </p>
+			<hr>
+			<button href="https://getbootstrap.com/docs/4.5/getting-started/introduction/
                 "class="btn btn-danger">Documentation</button>
 
-        </div>
+		</div>
 	</div>
 
 	<!--Container element-->
@@ -125,7 +126,7 @@
                      </button>
 					</div>
 
-                    <div class="alert alert-danger alert-dimissable fade show" role="alert">
+					<div class="alert alert-danger alert-dimissable fade show" role="alert">
 
 						<strong> .alert-danger </strong>
 						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -133,7 +134,7 @@
                      </button>
 					</div>
 
-                    <div class="alert alert-success alert-dimissable fade show" role="alert">
+					<div class="alert alert-success alert-dimissable fade show" role="alert">
 
 						<strong> .alert-success </strong>
 						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -141,110 +142,185 @@
                      </button>
 					</div>
 
-                    	<!-- Buttons -->
+					<!-- Buttons -->
 					<div id="buttons" class="row">
 						<h2 class="section-header"> Buttons </h2>
 					</div>
-                    <div class = "row">
-                        <button class = "btn mr-2 btn-primary"> Primary </button>
-                        <button class = "btn mr-2 btn-outline-primary"> Outline</button>
-                        <button class = "btn mr-2 btn-danger"> Danger </button>
-                        <button class = "btn mr-2 btn-success"> Success </button>
-                        <button class = "btn mr-2 mt-2 btn-info btn-block"> Block </button>
-                    </div>
+					<div class="row">
+						<button class = "btn mr-2 btn-primary"> Primary </button>
+						<button class = "btn mr-2 btn-outline-primary"> Outline</button>
+						<button class = "btn mr-2 btn-danger"> Danger </button>
+						<button class = "btn mr-2 btn-success"> Success </button>
+						<button class = "btn mr-2 mt-2 btn-info btn-block"> Block </button>
+					</div>
 
-                    <!--Cards-->
-                    <div id="cards" class="row">
+					<!--Cards-->
+					<div id="cards" class="row">
 						<h2 class="section-header"> Cards </h2>
 					</div>
-                    <div class = "row">
-                        <div class = "col-xs-10 col-sm-6 mb-5">
-                            <div class = "card" style = "width: auto">
-                            <div class = "card-header"> Sunset </div>
-                            <img src = "https://picography.co/wp-content/uploads/2019/06/picography-golden-mountain-sunset-sky-clouds-light-900x600.jpg" 
-                            class = "card-img-top" alt = "Sunset Image"> 
-                                <div class = "card-body">
-                                    <div class = "card-title"> Sunset</div>
-                                    <p class = "card-text"> "The sunset looks cool over the mountains" </p> 
-                                    <a href = "#" class = "btn btn-primary"data-toggle="modal"
-                                    data-target=#exampleModal> Click </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class = "col-xs-10 col-sm-6 mb-5">
-                            <div class = "card" style = "width: auto">
-                            <div class = "card-header"> Detroit Skyline</div>
-                            <img src = "https://traknetsolutions.com/wp-content/uploads/2019/11/detroit-skyline-linda-goodhue-photography.jpg" 
-                            class = "card-img-top" alt = "Detroit Image"> 
-                                <div class = "card-body">
-                                    <div class = "card-title"> Detroit</div>
-                                    <p class = "card-text"> "The Detroit skyline looks nice at night" </p> 
-                                    <a href = "#" class = "btn btn-primary" data-toggle="modal"
-                                    data-target=#exampleModal> Click </a>
-                                </div> 
+					<div class="row">
+						<div class="col-xs-10 col-sm-6 mb-5">
+							<div class="card" style="width: auto">
+								<div class="card-header"> Sunset </div>
+								<img src = "https://picography.co/wp-content/uploads/2019/06/picography-golden-mountain-sunset-sky-clouds-light-900x600.jpg"
+                            class = "card-img-top" alt = "Sunset Image">
+								<div class="card-body">
+									<div class="card-title"> Sunset</div>
+									<p class="card-text"> "The sunset looks cool over the mountains" </p>
+									<a href="#" class="btn btn-primary" data-toggle="modal" data-target=#exampleModal>
+										Click </a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-10 col-sm-6 mb-5">
+							<div class="card" style="width: auto">
+								<div class="card-header"> Detroit Skyline</div>
+								<img src = "https://traknetsolutions.com/wp-content/uploads/2019/11/detroit-skyline-linda-goodhue-photography.jpg"
+                            class = "card-img-top" alt = "Detroit Image">
+								<div class="card-body">
+									<div class="card-title"> Detroit</div>
+									<p class="card-text"> "The Detroit skyline looks nice at night" </p>
+									<a href="#" class="btn btn-primary" data-toggle="modal" data-target=#exampleModal>
+										Click </a>
+								</div>
 
-                            </div>
-                        </div>
-                    </div>
+							</div>
+						</div>
+					</div>
 
-                    <!-- Modals -->
-                     <div class = "modal fade" id = "exampleModal">
-                     <!--
+					<!-- Modals -->
+					<div class="modal fade" id="exampleModal">
+						<!--
                          Modal dialogue
                          Modal Content
                          Modal Header > Title and Close Button
                          Modal Body
                          Modal Footer
                      -->
-                            <div class = "modal-dialog">
-                             <div class = "modal-content">
-                                <!--Modal Header-->
-                                <div class = "modal-header">
-                                <h5 class = "modal-title"> Modal Title </h5>
-                                <button class = "close" data-dismiss = "modal"> 
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<!--Modal Header-->
+								<div class="modal-header">
+									<h5 class="modal-title"> Modal Title </h5>
+									<button class = "close" data-dismiss = "modal">
                                     <span aria-hidden = "true" > &times; </span>
                                 </button>
-                                </div>
-                                <!--Modal Body-->
-                                <div class = "modal-body">
-                                    <p> This is the Modal body </p>
-                                </div>
-                                <!--Modal Footer-->
-                                <div class = "modal-footer">
-                                    <button class = "btn btn-danger"
+								</div>
+								<!--Modal Body-->
+								<div class="modal-body">
+									<p> This is the Modal body </p>
+								</div>
+								<!--Modal Footer-->
+								<div class="modal-footer">
+									<button class = "btn btn-danger"
                                     data-dismiss = "modal"> Close </button>
 
-                                </div>
-                             
-                             
-                             
-                             </div>
-                            </div>
+								</div>
 
-                      </div>
+
+
+							</div>
+						</div>
+
+					</div>
+
+                    <!--Carousel Indicators-->
+                    <ol class="carousel-indicators">
+                        <li data-target =#carouselExampleIndicators data-slide-to = "0" class="active"></li>
+                        <li data-target =#carouselExampleIndicators data-slide-to = "1"> </li>
+                        <li data-target =#carouselExampleIndicators data-slide-to = "2"> </li>
+                    </ol>
 
 					<!-- Carousel -->
-                        <div class="row" id="carousel">
-                            <h1 class="section-header">Carousel</h1>
-                        </div>
+					<div class="row" id="carousel">
+						<h1 class="section-header">Carousel</h1>
+					</div>
 
-					<!-- Forms -->
+					<!--Carousel-->
+					<!--Carousel inner-->
+					<!--Carousel Inner-->
+					<!--Carousel Item(s)-->
+					<!--Carousel Control Prev/Next-->
 
-					<!--
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval=1000>
+						<div class="carousel-indicators">
+						</div>
+						<!--Carousel Inner-->
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="carousel-caption">
+									<h5>Slide 1</h5>
+								</div>
+								<img src="https://1.bp.blogspot.com/-284zVHSSNdU/Xkws-rEkenI/AAAAAAAA1UE/rGYdlnijghw6-wqFh45sYXYFbCZUEngdQCEwYBhgL/s1600/sunset_3.jpg"
+                                alt="" class="d-block w-100">
+							</div>
+								<div class="carousel-item">
+									<div class="carousel-caption">
+										<h5>Slide 2</h5>
+									</div>
+									<img src="https://image.dynamixse.com/crop/900x600/webp.q80.png-lossy-85/https://dynamix-cdn.s3.amazonaws.com/pikearmstrong/armstronggardencom_780232638.jpeg"
+                                alt="" class="d-block w-100">
+							</div>
+									<div class="carousel-item">
+										<div class="carousel-caption">
+											<h5>Slide 3</h5>
+										</div>
+										<img src="https://cdn.shopify.com/s/files/1/0073/0375/7883/files/Denali.jpg?v=1547210395"
+                                alt="" class="d-block w-100">
+							        </div>
+                                    <!--Carousel Buttons-->
+                                        <a href = "#carouselExampleControls"  
+                                        class = "carousel-control-prev" 
+                                        role= "button" data-slide = "prev">
+                                        <span class="carousel-control-prev-icon"></span>
+
+                                         </a>
+                                        <a href = "#carouselExampleControls" 
+                                        class = "carousel-control-next" 
+                                        role= "button" data-slide = "next"> 
+                                        <span class="carousel-control-next-icon"></span>
+                                        </a>
+
+									</div>
+								</div>
+
+								<!-- Forms -->
+                                <div class = "row" id = "form">
+                                    <h1 class = "section-header"> Forms </h1>
+                                </div> 
+
+                                <div class = "row input-type">
+                                    <div class = "col-xs-12 col-sm-6">
+                                        <h6 class = "input-type-header"> Regular Input </h6>
+                                         <div class = "input-group">
+                                            <div class = "input-group-prepend">
+                                                <span class = "input-group-text" id = "basic-addon"> 1 </span>
+                                                <input type = "text" class = "form-control"
+                                                placeholder = "Username">
+                                             </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                        
+
+
+								<!--
             <div class="container-sm">100% wide until small breakpoint</div>
             <div class="container-md">100% wide until medium breakpoint</div>
             <div class="container-lg">100% wide until large breakpoint</div>
             <div class="container-xl">100% wide until extra large breakpoint</div>
             -->
-					<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-						integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-						crossorigin="anonymous"></script>
-					<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-						integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-						crossorigin="anonymous"></script>
-					<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-						integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-						crossorigin="anonymous"></script>
+								<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+									integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+									crossorigin="anonymous"></script>
+								<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+									integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+									crossorigin="anonymous"></script>
+								<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+									integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+									crossorigin="anonymous"></script>
 
 </body>
 
