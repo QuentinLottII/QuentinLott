@@ -1,4 +1,29 @@
 body {
-    color: blue;
-    font: sans-serif 12px;
+    background-color: slategrey;
+    color: white;
+    font: serif 12px;
+}
+
+table, tr, th{
+     border-collapse: collapse;
+     border: 1px solid lightgray;
+     color: white;
+     font:serif 12px;
+     text-align: left; 
+}
+
+div{
+    color: white;
+    font: serif 12px;
+}
+
+button{
+ background-color: slategrey; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
