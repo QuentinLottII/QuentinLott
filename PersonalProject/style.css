@@ -1,36 +1,33 @@
 body {
-    background-color: slategrey;
-    color: white;
+    background-color: #DCDCDC;
+    color: black;
     font: serif 12px;
+    padding-top: 90px;
 }
 
 table, tr, th{
      border-collapse: collapse;
-     border: 1px solid lightgray;
-     color: white;
+     border: 1px solid white;
+     color: black;
      font:serif 12px;
      text-align: left; 
 }
 
 div{
-    color: white;
+    color: black;
     font: serif 12px;
 }
 
 
-button{
- background-color: rgb(199, 203, 207); 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+.card{
+    background-color: #DCDCDC;
+    border: 1px #DCDCDC;
+    border-style: inset; 
+    padding-left: 30px;
 }
 
-.card{
-    background-color: slategray;
-    border: 1px black;
-    border-style: inset;
+#row{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
