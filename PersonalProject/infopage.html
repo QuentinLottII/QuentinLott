@@ -9,15 +9,26 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a class="nav-link" href="project.html">Home</a>
-			</li>
-			<li class="nav-item active">
-				<a class="nav-link" href="infopage.html">Info</a>
-			</li>
-		</ul>
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Personal Project </a>
+
+		<!-- Toggler/collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="project.html">Home</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="infopage.html">Infopage</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 	<div class="container">
 		<div class="row">
@@ -158,10 +169,10 @@
 						<label for="exampleInputEmail1">Name</label>
 						<input type="email" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter name">
                         </div>
-					<div class="form-group">
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                     </div>
+						<div class="form-group">
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						</div>
 						<button type="submit" class="btn btn-primary">Submit</button>
 				</form>
 			</div>

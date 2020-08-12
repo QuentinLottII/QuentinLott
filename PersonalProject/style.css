@@ -1,27 +1,26 @@
 body {
-    background-color: #DCDCDC;
-    color: black;
+    background-color: #43464b;
+    color:white;
     font: serif 12px;
-    padding-top: 90px;
 }
 
 table, tr, th{
      border-collapse: collapse;
-     border: 1px solid white;
-     color: black;
+     border: 1px round white ;
+     color:white;
      font:serif 12px;
      text-align: left; 
 }
 
 div{
-    color: black;
+    color: white;
     font: serif 12px;
 }
 
 
 .card{
-    background-color: #DCDCDC;
-    border: 1px #DCDCDC;
+    background-color:#43464b;
+    border: 1px white;
     border-style: inset; 
     padding-left: 30px;
 }
